@@ -11,3 +11,6 @@ Route::get('/login', function () {
 Route::get('/connect', function () {
     return view('connect');
 });
+Route::get('/signup', function () {
+    return view('signup');
+});
